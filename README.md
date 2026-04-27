@@ -2,6 +2,8 @@
 
 This repository contains the analysis code for the research article: "Lamprey 3D single-cell transcriptomics reveals ancestral and specialized features of the vertebrate brain". The codebase implements comprehensive spatial transcriptomics analyses of lamprey brain tissue, integrating multi-species comparisons to identify conserved and specialized vertebrate brain features.
 
+<img width="1289" height="945" alt="image" src="https://github.com/user-attachments/assets/bb7f2fc0-9f37-495c-b0ac-4b710a1a3dd1" />
+
 ## Repository Structure
 
 ### 1. `lamprey_spatial/`
