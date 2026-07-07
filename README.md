@@ -52,6 +52,18 @@ Cross-species comparative analysis and visualization workflows:
 - **Python**: scanpy, pandas, numpy, matplotlib, cv2, spateo, graphst
 - **Single-Cell Tools**: scVI, Harmony, GraphST
 
+## Gene Annotation
+
+To support gene identification in the analyses above, three annotation files are provided:
+
+| File | Description |
+| --- | --- |
+| `Lethenteron_reissneri.zip` | Genome annotation (GTF) for the lamprey *Lethenteron reissneri*, used to confirm gene sequences and structures |
+| `gene_annotation.csv` | Gene ID annotations compiled from multiple protein databases |
+| `blastp.NR.csv` | BLASTp-against-NR annotations used directly in the analysis code |
+
+**Note on gene naming.** Owing to whole-genome duplication events in the vertebrate different lineage, homology relationships are often complex and a single gene ID may map to several candidate names. These files serve as a starting reference rather than a definitive assignment. For any specific gene of interest, we re-confirm its name by cross-checking multiple databases, and where necessary verify homology relationships through BLAST searches and phylogenetic tree reconstruction.
+
 ## Usage
 
 1. Clone the repository:
